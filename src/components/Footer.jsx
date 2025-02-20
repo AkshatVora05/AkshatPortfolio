@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -10,6 +10,9 @@ const Footer = () => {
         </a>
         <a href="https://www.linkedin.com/in/akshat-vora-17b20a275/" target="_blank" rel="noopener noreferrer">
           <FaLinkedin />
+        </a>
+        <a href="mailto:voraakshat05.com">
+          <FaEnvelope />
         </a>
       </div>
       <p>&copy; 2025 Akshat Vora. All rights reserved.</p>
